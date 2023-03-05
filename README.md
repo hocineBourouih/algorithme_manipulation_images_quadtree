@@ -11,30 +11,30 @@ en mettant en pratique les concepts de pointeurs, arbres (AQR : arbre binaire de
 * Présentation du projet
 - Le projet est constitué :
 
-- image.h : ce fichier contient les définitions des types de données utilisés, les prototypes des fonctions qui sont utilisées pour manipuler les images
-- image.c : contient les implémentations des fonctions pour manipuler les images
-- quadtree.h : ce fichier contient les définitions des types de données utilisés dans le projet, ainsi que les prototypes 
+  - image.h : ce fichier contient les définitions des types de données utilisés, les prototypes des fonctions qui sont utilisées pour manipuler les images
+  - image.c : contient les implémentations des fonctions pour manipuler les images
+  - quadtree.h : ce fichier contient les définitions des types de données utilisés dans le projet, ainsi que les prototypes 
 des fonctions qui sont utilisées pour manipuler les quadtrees
-- quadtree.c : ce fichier contient les implémentations des fonctions pour manipuler les quadtrees
-- main.c : contient le code principal qui utilise les fonctions implémentées pour créer une image, 
+  - quadtree.c : ce fichier contient les implémentations des fonctions pour manipuler les quadtrees
+  - main.c : contient le code principal qui utilise les fonctions implémentées pour créer une image, 
 la transformer en quadtree, la modifier et l'afficher dans un terminal.
 
 * Utilité du projet :
   - Le projet consiste à manipuler des images en utilisant la structure algorithmique quadtree. 
-- L'algorithme quadtree divise une image en plusieurs zones carrées qui peuvent être facilement manipulées. 
+  - L'algorithme quadtree divise une image en plusieurs zones carrées qui peuvent être facilement manipulées. 
 En utilisant cette technique, il est possible de compresser des images,
 de modifier leur taille ou leur résolution, de réaliser des filtres et de manipuler des images de manière efficace et rapide.
 
 * points techniques :
-- La structure quadtree est une structure de données arborescente qui divise une image en plusieurs zones 
+  - La structure quadtree est une structure de données arborescente qui divise une image en plusieurs zones 
 carrées de tailles différentes. Chaque nœud de l'arbre représente une zone carrée de l'image et chaque feuille 
 représente une zone d'une seule et même couleur. Les trois entiers stockés dans la feuille représentent simplement 
 les niveaux rouge/vert/bleu de la couleur de cette zone.
-- Pour manipuler les images, on utilise les pixels qui sont des triplets d'entiers représentant les niveaux rouge/vert/bleu de chaque point de l'image.
+  - Pour manipuler les images, on utilise les pixels qui sont des triplets d'entiers représentant les niveaux rouge/vert/bleu de chaque point de l'image.
 
 * comilation et execution : 
-- J'ai ajouté un fichier exécutable appelé 'program.exe'. 
+  - J'ai ajouté un fichier exécutable appelé 'program.exe'. 
 Vous pouvez l'exécuter directement pour voir le résultat du code, ou bien compiler et créer un autre fichier exécutable.
 
 * Amélioration et visibilité : 
-- J'ai ajouté deux images que vous pouvez consulter. L'une représente l'image obtenue, et l'autre représente le quad tree obtenu à partir de cette image. Il est difficile de comprendre l'affichage sur un terminal.
+  - J'ai ajouté deux images que vous pouvez consulter. L'une représente l'image obtenue, et l'autre représente le quad tree obtenu à partir de cette image. Il est difficile de comprendre l'affichage sur un terminal.
