@@ -4,7 +4,8 @@ Algorithme utilisant les quadtrees pour manipuler des images (En C)
 - Ce projet est réalisé dans le cadre d'un cours d'algorithme en L2 Informatique.
 
 - L'objectif principal de ce projet est de manipuler des image en implémentant une structure de données arborescente "Quadtree",
-en mettant en pratique les concepts de pointeurs, arbres (AQR : arbre binaire de recherche) et le traitement d'image.
+en mettant en pratique les arbres binaire plus précisément les AQR (arbre binaire de recherche), les concepts de pointeur, liberer la mémoir
+(vu l'absence du collecte garbage en C) et le traitement d'image.
 
 - Le code est implémenté en langage C.
 
