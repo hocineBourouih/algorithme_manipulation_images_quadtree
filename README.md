@@ -35,3 +35,6 @@ les niveaux rouge/vert/bleu de la couleur de cette zone.
 * comilation et execution : 
 - J'ai ajouté un fichier exécutable appelé 'program.exe'. 
 Vous pouvez l'exécuter directement pour voir le résultat du code, ou bien compiler et créer un autre fichier exécutable.
+
+* Amélioration et visibilité : 
+- J'ai ajouté deux images que vous pouvez consulter. L'une représente l'image obtenue, et l'autre représente le quad tree obtenu à partir de cette image. Il est difficile de comprendre l'affichage sur un terminal.
