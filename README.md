@@ -20,7 +20,7 @@ des fonctions qui sont utilisées pour manipuler les quadtrees
 la transformer en quadtree, la modifier et l'afficher dans un terminal.
 
 * Utilité du projet :
-- Le projet consiste à manipuler des images en utilisant la structure algorithmique quadtree. 
+  - Le projet consiste à manipuler des images en utilisant la structure algorithmique quadtree. 
 - L'algorithme quadtree divise une image en plusieurs zones carrées qui peuvent être facilement manipulées. 
 En utilisant cette technique, il est possible de compresser des images,
 de modifier leur taille ou leur résolution, de réaliser des filtres et de manipuler des images de manière efficace et rapide.
