@@ -34,8 +34,10 @@ les niveaux rouge/vert/bleu de la couleur de cette zone.
   - Pour manipuler les images, on utilise les pixels qui sont des triplets d'entiers représentant les niveaux rouge/vert/bleu de chaque point de l'image.
 
 * comilation et execution : 
-  - J'ai ajouté un fichier exécutable appelé 'program.exe'. 
-Vous pouvez l'exécuter directement pour voir le résultat du code, ou bien compiler et créer un autre fichier exécutable.
+il faut compiler tout les fichier au même temps et dans l'ordre :
+  - commande : gcc -o program.exe ./image.c ./quadtree.c ./main.c 
+  - ici j'ai choisi program.exe comme fichier de sortie
+  - ./program.exe pour exécuter 
 
 * Amélioration et visibilité : 
   - J'ai ajouté deux images que vous pouvez consulter. L'une représente l'image obtenue, et l'autre représente le quad tree obtenu à partir de cette image. Il est difficile de comprendre l'affichage sur un terminal.
